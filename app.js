@@ -43,7 +43,7 @@ app.post('/',function(req,res){
     const url='https://us21.api.mailchimp.com/3.0/lists/3f89751abd';
     const options={
         method:'POST',
-        auth:'mannanhanda:a359a5bbada89630c033e189197f901bd-us21'
+        auth:'mannanhanda:359a5bbada89630c033e189197f901bd-us21'
     }
 
     const request=https.request(url,options,function(response){
